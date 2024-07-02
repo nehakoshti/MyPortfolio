@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Neha Koshti Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <style>
+   
+
+    /* the navbar glow at bottom css */
+    .navbar-nav .nav-link {
+      color: #2E86C1;
+      position: relative;
+      text-decoration: none;
+      font-weight: normal;
+      transition: font-weight 0.3s ease;
+    }
+
+    .navbar-nav .nav-link::after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      bottom: -2px;
+      left: 0;
+      background-color: transparent;
+      transition: background-color 0.3s ease;
+    }
+
+    .navbar-nav .nav-link:hover {
+      font-weight: bold;
+    }
+
+    .navbar-nav .nav-link:hover::after {
+      background-color: #2E86C1;
+    }
+
+    /*  */
+  </style>
+</head>
+
+<body style="background-color: #21618C;">
+  <div style=" background-color: white;" class="container mb-5 mt-5 p-2 border shadow rounded" >
+
+
+    <nav class="navbar navbar-expand-sm rounded justify-content-center">
+      <div class="container-fluid">
+        <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-center " id="navbarNavDropdown">
+          <ul class="navbar-nav ">
+            <li class="nav-item ">
+              <a class="nav-link" href="index.html">Intro</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Education.html">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Experience.html">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Skills.html">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Projects.html">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Certifications.html">Certifications</a>
+          </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Contact.html">Contact</a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    <div class="row p-5 ">
+
+      <div>
+
+        <div class="card-body  px-lg-5 ">
+          <h1 class="mb-5" style="color: #2E86C1;">Projects</h1>
+          <!--  -->
+
+
+
+          <div id="carouselExampleControlsNoTouching" class="carousel slide " data-bs-touch="false">
+
+            <div class="carousel-inner ">
+
+              <div class="carousel-item active">
+                <div class="card">
+
+                  <div class="card-body  ">
+                    <div class="m-5 ps-5 pe-5 ">
+                      
+                      <div class="row g-0 ">
+                        <div class="col-lg-4 ">
+                          <img src="Static/translator.avif" class="img-fluid rounded-start" style="width: 300; height: 250px; object-fit: cover;">
+                        </div>
+                        <div class="col-lg-8 ">
+                          <div class="card-body">
+                            <h5 class="card-title">Speech to Text Multilingual Translator</h5>
+                            <p class="card-text"><small class="text-body-secondary">Python, Flask, Google API</small>
+                            </p>
+                            <p class="card-text">
+                              A multilingual translator offering speech-to-text capabilities, utilizing APIs to
+                              translate between any pair of languages.
+                            </p>                            
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="card">                  
+                  <div class="card-body ">
+                    <div class="m-5 ps-5 pe-5">
+                      <div class="row g-0">                        
+                        <div class="col-lg-4">
+                          <img src="Static/p2.webp" class="img-fluid rounded-start" style="width: 300; height: 250px; object-fit: cover;">
+                        </div>                      
+                        <div class="col-lg-8">
+                          <div class="card-body">
+                            <h5 class="card-title">Movie Reommendation System</h5>
+                            <p class="card-text"><small class="text-body-secondary">Python, scikit-learn</small>
+                            </p>
+                            <p class="card-text">
+                              Designed and implemented a content-based movie recommendation model leveraging the scikit-learn library in Python. 
+                              The model analyzes movie attributes to provide personalized recommendations based on user preferences and content similarity.
+                            </p>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="card">                  
+                  <div class="card-body ">
+                    <div class="m-5 ps-5 pe-5">
+                      <div class="row g-0">                        
+                        <div class="col-lg-4">
+                          <img src="Static/p4.jpg" class="img-fluid rounded-start" style="width: 300; height: 250px; object-fit: cover;">
+                        </div>                      
+                        <div class="col-lg-8">
+                          <div class="card-body">
+                            <h5 class="card-title">Dynamic Blogging Platform</h5>
+                            <p class="card-text"><small class="text-body-secondary">Python, Django</small>
+                            </p>
+                            <p class="card-text">
+                              Built using Django and Python, this blogging site features user authentication, sign-in, sign-up,
+                               profile management, and intuitive post creation capabilities. 
+                              Users can securely manage their accounts, publish posts, and engage with content seamlessly.
+                            </p>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="card">                  
+                  <div class="card-body ">
+                    <div class="m-5 ps-5 pe-5">
+                      <div class="row g-0">                        
+                        <div class="col-lg-4">
+                          <img src="Static/etl.png" class="img-fluid rounded-start" style="width: 300; height: 250px; object-fit: cover;">
+                        </div>                      
+                        <div class="col-lg-8">
+                          <div class="card-body">
+                            <h5 class="card-title">ETL Pipeline for Real-World Banking Data</h5>
+                            <p class="card-text"><small class="text-body-secondary">Python, ETL , Beautiful Soup</small>                        
+                            </p>
+                            <p class="card-text">
+                              Utilized Python expertise to develop an Extract, Transform, Load (ETL) pipeline for aggregating data 
+                              from webpages detailing the world's largest banks. Extracted pertinent information,
+                               transformed it to conform to database schema requirements, and loaded it into a structured database.
+                            </p>                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="card">                  
+                  <div class="card-body ">
+                    <div class="m-5 ps-5 pe-5">
+                      <div class="row g-0">                        
+                        <div class="col-lg-4">
+                          <img src="Static/review.jpg" class="img-fluid rounded-start" style="width: 300; height: 250px; object-fit: cover;">
+                        </div>                      
+                        <div class="col-lg-8">
+                          <div class="card-body">
+                            <h5 class="card-title">Reason for sales Performance Analysis </h5>
+                            <p class="card-text"><small class="text-body-secondary">Python, NLP, ETL</small>
+                            </p>
+                            <p class="card-text">
+                              Utilized Python along with Natural Language Processing (NLP) techniques and Beautiful Soup for web 
+                              scraping to extract and analyze real-world product reviews and ratings from Amazon. 
+                              The analysis focuses on identifying factors influencing product success or failure, providing insights into  
+                             potential reasons behind best-selling or poorly performing products. 
+                              This data-driven approach enhances decision-making processes for businesses to optimize product strategies and customer satisfaction.
+                            </p>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon bg-info rounded-circle" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon bg-info rounded-circle" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+           
+
+
+          </div>
+        </div>
+
+
+        
+
+
+        
+
+
+
+
+        <!--  -->
+      </div>
+    </div>
+
+  </div>
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
