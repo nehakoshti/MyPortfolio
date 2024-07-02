@@ -1,2 +1,2 @@
-
-https://github.com/nehakoshti/MyPortfolio
+Link to the site:
+https://nehakoshti.github.io/MyPortfolio/
